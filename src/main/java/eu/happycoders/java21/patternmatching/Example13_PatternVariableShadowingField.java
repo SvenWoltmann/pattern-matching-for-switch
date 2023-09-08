@@ -5,14 +5,22 @@ public class Example13_PatternVariableShadowingField {
   static String s = "Hello";
 
   public static void main(String[] args) {
-    print("Hello world");
-    print(1701);
+    println("Hello world");
+    println(1701);
+  }
+
+  // I did not include line breaks in the print() method to
+  // a) make the lines shorter and
+  // b) make them better readable in a printed magazine
+  static void println(Object o) {
+    print(o);
+    System.out.println();
   }
 
   static void print(Object o) {
     switch (o) {
-      case String s -> System.out.println(s);
-      default -> System.out.println(s);
+      case String s -> System.out.print(s);
+      case null, default -> System.out.print(s);
     }
   }
 
