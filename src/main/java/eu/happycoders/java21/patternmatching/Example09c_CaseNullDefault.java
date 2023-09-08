@@ -12,7 +12,7 @@ public class Example09c_CaseNullDefault {
 
   static String describe(Object o) {
     return switch (o) {
-      case String s when s.length() > 10 -> "A long string: " + s.substring(0, 10) + "...";
+      case String s when s.length() > 10 -> "A long string: %s...".formatted(s.substring(0, 10));
       case String s -> "A not so long string: " + s;
       case Integer i -> "An integer whose square is: " + i * i;
       case null, default -> "Something else";

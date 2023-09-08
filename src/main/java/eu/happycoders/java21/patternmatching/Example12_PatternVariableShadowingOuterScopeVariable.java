@@ -5,8 +5,8 @@ public class Example12_PatternVariableShadowingOuterScopeVariable {
   void print(Object o) {
     String s = "Hello";
     switch (o) {
-      case String s -> System.out.println("A string: " + s); // Not allowed
-      default -> System.out.println("Something else");
+      case String s -> System.out.print("A string: " + s); // Not allowed
+      default -> System.out.print("Something else");
     }
   }
 

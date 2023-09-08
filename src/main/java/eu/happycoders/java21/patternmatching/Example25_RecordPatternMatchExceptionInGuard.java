@@ -10,8 +10,8 @@ public class Example25_RecordPatternMatchExceptionInGuard {
 
   static void print(Point p) {
     switch (p) {
-      case Point(Integer x, Integer y) when x == 0 -> System.out.println("x-axis");
-      case Point(Integer x, Integer y) -> System.out.println("somewhere else");
+      case Point(Integer x, Integer y) when x == 0 -> System.out.print("x-axis");
+      case Point(Integer x, Integer y) -> System.out.print("somewhere else");
     }
   }
 

@@ -17,7 +17,7 @@ public class Example24_RecordPatternMatchException {
 
   static void print(Point p) {
     switch (p) {
-      case Point(Integer x, Integer y) -> System.out.printf("(%d, %d)%n", x, y);
+      case Point(Integer x, Integer y) -> System.out.printf("(%d, %d)", x, y);
     }
   }
 

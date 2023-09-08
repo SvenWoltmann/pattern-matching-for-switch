@@ -11,8 +11,8 @@ public class Example13_PatternVariableShadowingField {
 
   static void print(Object o) {
     switch (o) {
-      case String s -> System.out.println("s = " + s);
-      default -> System.out.println("s = " + s);
+      case String s -> System.out.println(s);
+      default -> System.out.println(s);
     }
   }
 

@@ -9,9 +9,9 @@ public class Example31_ExhaustiveWithUnconditionalPattern {
 
   static void printLength(String string) {
     switch (string) {
-      case String s when s.length() < 5 -> System.out.println("short");
-      case String s when s.length() == 5 -> System.out.println("medium");
-      case String s when s.length() > 5 -> System.out.println("long");
+      case String s when s.length() < 5 -> System.out.print("short");
+      case String s when s.length() == 5 -> System.out.print("medium");
+      case String s when s.length() > 5 -> System.out.print("long");
       case String s -> {}
     }
   }
