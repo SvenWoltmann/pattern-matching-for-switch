@@ -19,7 +19,7 @@ public class Example35_DominanceChecks4 {
     switch (string) {
       case "Hello" -> System.out.print("Hello back");
       case String s when s.length() > 5 -> System.out.print("long: " + s);
-      case String s -> System.out.print("not so long: " + s);
+      case String s when 1 == 1 -> System.out.print("not so long: " + s);
     }
   }
 
