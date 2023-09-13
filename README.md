@@ -4,7 +4,7 @@ This repository contains several examples for "Pattern Matching for switch",
 a feature described in [JEP 441](https://openjdk.org/jeps/441) 
 and released in [Java 21](https://www.happycoders.eu/java/java-21-features/). 
 
-## IDE Support
+## Java 21 IDE Support
 
 [IntelliJ IDEA](https://www.jetbrains.com/idea/) supports Java 21 as of version 2023.2.2.
 As long as this version is not yet released, 
@@ -27,3 +27,12 @@ To install multiple Java versions on Linux or macOS, I recommend using [SDKMAN!]
 
 To install multiple Java versions on Windows, 
 have a look at this tutorial: [How to Change Java Versions in Windows](https://www.happycoders.eu/java/how-to-switch-multiple-java-versions-windows/)
+
+
+## Other Java 21 Examples
+
+You might also find these GitHub repositories interesting:
+
+* https://github.com/SvenWoltmann/virtual-threads
+* https://github.com/SvenWoltmann/virtual-threads-quarkus
+* https://github.com/SvenWoltmann/virtual-threads-spring
