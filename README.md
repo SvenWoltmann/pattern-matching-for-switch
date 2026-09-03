@@ -7,30 +7,14 @@ and released in [Java 21](https://www.happycoders.eu/java/java-21-features/).
 I walk through these examples in my Java Magazin article
 [Java 21: Pattern Matching for switch](https://entwickler.de/java/java-21-pattern-matching) (German).
 
-## Java 21 IDE Support
+## How to Run
 
-[IntelliJ IDEA](https://www.jetbrains.com/idea/) supports Java 21 as of version 2023.2.2.
-As long as this version is not yet released, 
-you can install the release candidate via the [JetBrains Toolbox App](https://www.jetbrains.com/toolbox-app/)
-by going into the IntelliJ IDEA settings and activating the "Early Access Program".
-
-If your favorite IDE does not yet support the new Java version, 
-you can run any file via the `java` command, for example:
+You need Java 21 or newer. Every example is a single file that the `java` command runs directly, for example:
 
 ```
 cd src/main/java/eu/happycoders/java21/patternmatching
 java Example05_SwitchWithTypePattern.java
 ```
-
-## Java Downloads
-
-You can download Java 21 from here: https://jdk.java.net/21/
-
-To install multiple Java versions on Linux or macOS, I recommend using [SDKMAN!](https://sdkman.io/)
-
-To install multiple Java versions on Windows, 
-have a look at this tutorial: [How to Change Java Versions in Windows](https://www.happycoders.eu/java/how-to-switch-multiple-java-versions-windows/)
-
 
 ## Other Java 21 Examples
 
